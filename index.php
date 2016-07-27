@@ -8,7 +8,7 @@
         <title> Quotes </title>
 
         <!-- Bootstrap Cosmo Theme -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/darkly/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/cosmo/bootstrap.min.css" rel="stylesheet">
         
         <!-- Custom CSS files -->
         <link href="layout.css" rel="stylesheet">
@@ -34,7 +34,7 @@
                     $object = json_decode($json);
                 
                     // echo the data with html
-                    echo '<h1><b> Random Quote </b></h1>
+                    echo '<h2><b> Random Quote </b></h2>
                           <h2> "'.$object->quoteText.'" </h2>
                           <h3> - '.$object->quoteAuthor.' </h3>';
                 ?>
