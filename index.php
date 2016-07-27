@@ -24,7 +24,20 @@
     <body>
         <div class="vertical-center">
         <div class="container">
-            <div id="joke-container" class="col-lg-6 col-lg-offset-3 text-center">
+            <div class="col-lg-6 col-lg-offset-3 text-center">
+                
+                <?php
+                    // grab the json of the quote api
+                    $json = file_get_contents("http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en");
+
+                    // decode the json data into an object
+                    $object = json_decode($json);
+                
+                    // echo the data with html
+                    echo '<h2><b> Random Quote </b></h2>
+                          <h2> "'.$object->quoteText.'" </h2>
+                          <h2> -'.$object->quoteAuthor.' </h2>';
+                ?>
                 
             </div>
         </div>
