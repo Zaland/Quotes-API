@@ -5,13 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title> Movie Scenes </title>
+        <title> Quotes </title>
 
         <!-- Bootstrap Cosmo Theme -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/cosmo/bootstrap.min.css" rel="stylesheet">
         
         <!-- Custom CSS files -->
-        <link href="css/custom.css" rel="stylesheet">
+        <link href="layout.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,7 +22,13 @@
     </head>
     
     <body>
-        
+        <div class="vertical-center">
+        <div class="container">
+            <div id="joke-container" class="col-lg-6 col-lg-offset-3 text-center">
+                
+            </div>
+        </div>
+        </div>
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
