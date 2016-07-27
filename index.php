@@ -36,7 +36,7 @@
                     // echo the data with html
                     echo '<h2><b> Random Quote </b></h2>
                           <h2> "'.$object->quoteText.'" </h2>
-                          <h2> -'.$object->quoteAuthor.' </h2>';
+                          <h3> - '.$object->quoteAuthor.' </h3>';
                 ?>
                 
             </div>
